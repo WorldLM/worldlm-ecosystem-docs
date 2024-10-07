@@ -1,0 +1,10 @@
+crewai
+crewai_tools
+python-binance
+pandas
+ta
+openai
+langchain
+pydantic
+PyYAML
+python-dotenv
