@@ -99,7 +99,7 @@ back_to_top_text: "Back to top"
 enable_copy_code_button: true
 
 # Google Analytics
-ga_tracking: UA-XXXXXXXX-X
+ga_tracking: G-9K0350H10D
 ga_tracking_anonymize_ip: true
 
 # Compress HTML in production
