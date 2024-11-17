@@ -1,0 +1,14 @@
+remote_theme: just-the-docs/just-the-docs
+title: WorldLM AI Docs
+description: Documentation for WorldLM AI services
+color_scheme: dark
+
+# Enable search
+search_enabled: true
+
+# Enable external links to open in new tabs
+aux_links:
+  "WorldLM Website":
+    - "https://worldlm.me"
+  "API Console":
+    - "https://api.pplm.ai"
