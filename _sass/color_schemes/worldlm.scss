@@ -1,0 +1,38 @@
+// WorldLM custom color scheme
+
+$body-background-color: #1a1a1a;
+$sidebar-color: #242424;
+$border-color: #3d3d3d;
+
+$body-text-color: #D5D6DA;
+$body-heading-color: #ffffff;
+$nav-child-link-color: #D5D6DA;
+$search-result-preview-color: #D5D6DA;
+
+$link-color: #596A90;
+$btn-primary-color: #2D4170;
+
+// Gradient background for headers
+.main-header {
+  background: linear-gradient(135deg, #2D4170 0%, #596A90 100%);
+}
+
+// Custom button styling
+.btn-primary {
+  background: linear-gradient(135deg, #2D4170 0%, #596A90 100%);
+  &:hover {
+    background: linear-gradient(135deg, #374f8a 0%, #6979a3 100%);
+  }
+}
+
+// Typography improvements
+body {
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "SF Mono", Consolas, Monaco, monospace;
+  border-radius: 4px;
+}
