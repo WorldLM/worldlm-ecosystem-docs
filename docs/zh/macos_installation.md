@@ -21,6 +21,7 @@
 
 1. 打开终端
 2. 运行以下命令：
+
 ```bash
 # 创建 SillyTavern 目录
 mkdir ~/SillyTavern
@@ -46,6 +47,7 @@ docker run -d \
 ### 4. 创建快速启动脚本（可选）
 
 1. 创建启动脚本：
+
 ```bash
 echo '#!/bin/bash
 docker start sillytavern
@@ -55,6 +57,7 @@ chmod +x ~/SillyTavern/start_st.sh
 ```
 
 2. 创建应用程序快捷方式：
+
 ```bash
 # 创建自动操作应用程序
 # 1. 打开自动操作
