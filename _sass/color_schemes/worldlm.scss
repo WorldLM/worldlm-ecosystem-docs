@@ -1,25 +1,49 @@
-// WorldLM custom color scheme
+// WorldLM custom color scheme - Dark theme with professional styling
 
+// Base colors
 $body-background-color: #1a1a1a;
 $sidebar-color: #242424;
 $border-color: #3d3d3d;
 
+// Typography colors
 $body-text-color: #D5D6DA;
 $body-heading-color: #ffffff;
 $nav-child-link-color: #D5D6DA;
 $search-result-preview-color: #D5D6DA;
 
+// Brand colors
 $link-color: #596A90;
 $btn-primary-color: #2D4170;
 
-// Gradient background for headers
+// Component colors
+$code-background-color: #2d2d2d;
+$search-background-color: #2d2d2d;
+$table-background-color: #2d2d2d;
+$feedback-color: darken($sidebar-color, 3%);
+
+// Navigation
+$nav-width: 264px;
+$nav-width-md: 248px;
+$nav-list-item-height: 2rem;
+$nav-list-item-height-sm: 1.5rem;
+$nav-list-expander-right: true;
+
+// Search
+$search-background-color: #2d2d2d;
+$search-result-preview-color: $body-text-color;
+$search-border-color: $border-color;
+
+// Custom styling
 .main-header {
   background: linear-gradient(135deg, #2D4170 0%, #596A90 100%);
+  border-bottom: 1px solid $border-color;
 }
 
-// Custom button styling
 .btn-primary {
   background: linear-gradient(135deg, #2D4170 0%, #596A90 100%);
+  border: 1px solid darken(#2D4170, 10%);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  
   &:hover {
     background: linear-gradient(135deg, #374f8a 0%, #6979a3 100%);
   }
@@ -30,9 +54,57 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
 }
 
 code {
   font-family: "SF Mono", Consolas, Monaco, monospace;
   border-radius: 4px;
+  padding: 0.2em 0.4em;
+  background-color: $code-background-color;
+}
+
+// Table styling
+table {
+  background-color: $table-background-color;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  
+  th {
+    background-color: darken($table-background-color, 3%);
+  }
+  
+  tr:nth-child(even) {
+    background-color: lighten($table-background-color, 3%);
+  }
+}
+
+// Links
+a {
+  text-decoration: none;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    text-decoration: underline;
+    color: lighten($link-color, 10%);
+  }
+}
+
+// Scrollbar styling
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $body-background-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $border-color;
+  border-radius: 4px;
+  
+  &:hover {
+    background: lighten($border-color, 10%);
+  }
 }
