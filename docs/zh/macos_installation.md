@@ -87,4 +87,4 @@ docker rm -f sillytavern
 - 保持 Docker Desktop 在后台运行
 - 定期更新以确保最佳性能
 - 使用活动监视器检查资源使用情况
-- 加入我们的 [Discord](https://discord.gg/worldlm) 获取支持
+- 加入我们的 [Telegram 群组](https://t.me/+xun3ZpFI2Co2OTJl) 获取支持

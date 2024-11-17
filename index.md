@@ -34,9 +34,7 @@ WorldLM AI 通过我们的服务 [worldlm.me](https://worldlm.me) 和 API 端点
 - [API 参考文档](docs/zh/api_reference.md)
 
 ## 💬 Community & Support - 社区与支持
-- [Discord Community - Discord 社区](https://discord.gg/worldlm)
-- [FAQ - 常见问题](docs/faq.md)
-- [Contact Support - 联系支持](mailto:support@worldlm.me)
+- [Telegram Group - Telegram 群组](https://t.me/+xun3ZpFI2Co2OTJl)
 
 ---
 *Powered by WorldLM AI © 2024*

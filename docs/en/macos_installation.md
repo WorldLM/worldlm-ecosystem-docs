@@ -87,4 +87,4 @@ docker rm -f sillytavern
 - Keep Docker Desktop running in the background
 - Regular updates ensure best performance
 - Use Activity Monitor to check resource usage
-- Join our [Discord](https://discord.gg/worldlm) for support
+- Join our [Telegram Group](https://t.me/+xun3ZpFI2Co2OTJl) for support

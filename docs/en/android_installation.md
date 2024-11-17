@@ -84,4 +84,4 @@ nohup node server.js &
 ```bash
 ls logs/
 ```
-- Join the WorldLM Discord for help and updates
+- Join our [Telegram Group](https://t.me/+xun3ZpFI2Co2OTJl) for help and updates
