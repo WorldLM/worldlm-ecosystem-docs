@@ -1,24 +1,24 @@
-// WorldLM custom color scheme - Dark theme with professional styling
+// WorldLM custom color scheme - Light theme with professional styling
 
 // Base colors
-$body-background-color: #1a1a1a;
-$sidebar-color: #242424;
-$border-color: #3d3d3d;
+$body-background-color: #ffffff;
+$sidebar-color: #f5f6fa;
+$border-color: #e1e4e8;
 
 // Typography colors
-$body-text-color: #D5D6DA;
-$body-heading-color: #ffffff;
-$nav-child-link-color: #D5D6DA;
-$search-result-preview-color: #D5D6DA;
+$body-text-color: #24292e;
+$body-heading-color: #1a1a1a;
+$nav-child-link-color: #24292e;
+$search-result-preview-color: #24292e;
 
 // Brand colors
-$link-color: #596A90;
+$link-color: #2D4170;
 $btn-primary-color: #2D4170;
 
 // Component colors
-$code-background-color: #2d2d2d;
-$search-background-color: #2d2d2d;
-$table-background-color: #2d2d2d;
+$code-background-color: #f6f8fa;
+$search-background-color: #ffffff;
+$table-background-color: #ffffff;
 $feedback-color: darken($sidebar-color, 3%);
 
 // Navigation
@@ -29,7 +29,7 @@ $nav-list-item-height-sm: 1.5rem;
 $nav-list-expander-right: true;
 
 // Search
-$search-background-color: #2d2d2d;
+$search-background-color: #ffffff;
 $search-result-preview-color: $body-text-color;
 $search-border-color: $border-color;
 
@@ -37,12 +37,14 @@ $search-border-color: $border-color;
 .main-header {
   background: linear-gradient(135deg, #2D4170 0%, #596A90 100%);
   border-bottom: 1px solid $border-color;
+  color: #ffffff;
 }
 
 .btn-primary {
   background: linear-gradient(135deg, #2D4170 0%, #596A90 100%);
-  border: 1px solid darken(#2D4170, 10%);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  border: 1px solid $btn-primary-color;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  color: #ffffff;
   
   &:hover {
     background: linear-gradient(135deg, #374f8a 0%, #6979a3 100%);
@@ -62,6 +64,7 @@ code {
   border-radius: 4px;
   padding: 0.2em 0.4em;
   background-color: $code-background-color;
+  color: #24292e;
 }
 
 // Table styling
@@ -71,11 +74,11 @@ table {
   border-radius: 4px;
   
   th {
-    background-color: darken($table-background-color, 3%);
+    background-color: #f8f9fb;
   }
   
   tr:nth-child(even) {
-    background-color: lighten($table-background-color, 3%);
+    background-color: #f8f9fb;
   }
 }
 
@@ -101,10 +104,10 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: $border-color;
+  background: #d1d5da;
   border-radius: 4px;
   
   &:hover {
-    background: lighten($border-color, 10%);
+    background: #a5a9ad;
   }
 }
