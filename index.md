@@ -22,7 +22,7 @@ WorldLM AI provides seamless access to powerful language models through our serv
 ## Chinese | 中文
 
 ### 🌟 关于 WorldLM AI
-WorldLM AI 通过我们的服务 [worldlm.me](https://worldlm.me) 和 API 端点 [api.pplm.ai](https://api.pplm.ai) 提供对强大语言模型的无缝访问。
+WorldLM AI 通过我们的服务 [worldlm.me](https://worldlm.me) 和 API 端点 [pplm.ai](https://pplm.ai) 提供对强大语言模型的无缝访问。
 
 ### 📚 安装指南
 - [Windows 版 SillyTavern 安装指南](docs/zh/windows_installation.md)
@@ -33,10 +33,10 @@ WorldLM AI 通过我们的服务 [worldlm.me](https://worldlm.me) 和 API 端点
 - [WorldLM API 入门指南](docs/zh/api_getting_started.md)
 - [API 参考文档](docs/zh/api_reference.md)
 
-## 💬 Community & Support | 社区与支持
-- [Discord Community | Discord 社区](https://discord.gg/worldlm)
-- [FAQ | 常见问题](docs/faq.md)
-- [Contact Support | 联系支持](mailto:support@worldlm.me)
+## 💬 Community & Support - 社区与支持
+- [Discord Community - Discord 社区](https://discord.gg/worldlm)
+- [FAQ - 常见问题](docs/faq.md)
+- [Contact Support - 联系支持](mailto:support@worldlm.me)
 
 ---
 *Powered by WorldLM AI © 2024*
