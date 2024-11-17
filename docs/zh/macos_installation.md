@@ -3,6 +3,7 @@
 本指南使用 Docker 进行简化安装，适用于 Intel 和 Apple Silicon Mac。
 
 ## 前提条件
+
 - macOS 11 (Big Sur) 或更高版本
 - WorldLM API 密钥（从 [worldlm.me](https://worldlm.me) 获取）
 - 网络连接
@@ -10,12 +11,14 @@
 ## 安装步骤
 
 ### 1. 安装 Docker Desktop
+
 1. 下载 [Docker Desktop for Mac](https://www.docker.com/products/docker-desktop/)
    - 根据您的 Mac 选择 Apple Silicon 或 Intel 版本
 2. 安装 Docker Desktop
 3. 从应用程序启动 Docker Desktop
 
 ### 2. 使用 Docker 安装 SillyTavern
+
 1. 打开终端
 2. 运行以下命令：
 ```bash
@@ -32,6 +35,7 @@ docker run -d \
 ```
 
 ### 3. 配置 WorldLM API
+
 1. 打开浏览器访问 `http://localhost:5000`
 2. 在 SillyTavern 设置中：
    - API 类型：选择 "WorldLM"
@@ -40,6 +44,7 @@ docker run -d \
    - 模型：选择 `gemini-1.5-pro` 或 `gemini-1.5-flash`
 
 ### 4. 创建快速启动脚本（可选）
+
 1. 创建启动脚本：
 ```bash
 echo '#!/bin/bash
@@ -60,6 +65,7 @@ chmod +x ~/SillyTavern/start_st.sh
 ```
 
 ## 管理命令
+
 ```bash
 # 停止 SillyTavern
 docker stop sillytavern
@@ -77,6 +83,7 @@ docker rm -f sillytavern
 ```
 
 ## 故障排除
+
 - **Docker Desktop 崩溃**：确保系统资源充足
 - **容器无法启动**：检查端口 5000 是否被占用
 - **性能问题**：
@@ -84,6 +91,7 @@ docker rm -f sillytavern
   - Intel：在 Docker 设置中确保足够的内存分配
 
 ## 提示
+
 - 保持 Docker Desktop 在后台运行
 - 定期更新以确保最佳性能
 - 使用活动监视器检查资源使用情况
