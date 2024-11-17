@@ -4,7 +4,7 @@
 
 ## 🌟 Quick Start
 - [About WorldLM AI](#about)
-- [API Endpoint](https://api.pplm.ai)
+- [API Endpoint](https://worldlm.me)
 - [Web Interface](https://worldlm.me)
 
 ## 📚 Installation Guides
@@ -26,7 +26,7 @@
 
 ## 🌟 快速开始
 - [关于 WorldLM AI](#about)
-- [API 接口](https://api.pplm.ai)
+- [API 接口](https://worldlm.me)
 - [网页界面](https://worldlm.me)
 
 ## 📚 安装指南
