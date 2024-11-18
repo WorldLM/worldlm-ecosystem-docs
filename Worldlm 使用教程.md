@@ -6,11 +6,11 @@ Worldlm 是一个可国内直连的前端镜像！只需要使用您购买的 AP
 
 1. 请访问 [https://worldlm.me/](https://worldlm.me/)，并注册账号
 
-   <img src="https://github.com/WorldLM/worldlm-ecosystem-docs/blob/xy-docs/docs/materials/image-20241118184901167.png" alt="注册账号" width="50%" />
+   <img src="https://github.com/WorldLM/worldlm-ecosystem-docs/blob/xy-docs/docs/materials/image-20241118184901167.png" alt="注册账号" width="30%" />
 
 2. 访问 [https://worldlm.me/](https://worldlm.me/)，并登录，在顶部找到模型菜单
 
-   <img src="https://github.com/WorldLM/worldlm-ecosystem-docs/blob/xy-docs/docs/materials/image-20241118183700668.png" alt="模型菜单" width="50%" />
+   <img src="https://github.com/WorldLM/worldlm-ecosystem-docs/blob/xy-docs/docs/materials/image-20241118183700668.png" alt="模型菜单" width="70%" />
 
 3. 选择您购买的对应模型，点击“设置API 秘钥”并输入您购买的 API 秘钥
 
