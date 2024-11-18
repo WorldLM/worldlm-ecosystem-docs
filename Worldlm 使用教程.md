@@ -6,25 +6,25 @@ Worldlm 是一个可国内直连的前端镜像！只需要使用您购买的 AP
 
 1. 请访问 https://worldlm.me/ ，并注册账号
 
-   ![image-20241118184901167](/Users/errance/Library/Application Support/typora-user-images/image-20241118184901167.png)
+   ![image-20241118184901167]([/Users/errance/Library/Application Support/typora-user-images/image-20241118184901167.png](https://github.com/WorldLM/worldlm-ecosystem-docs/blob/xy-docs/docs/materials/image-20241118183700668.png))
 
 2. 访问 https://worldlm.me/ 并登录，在顶部找到模型菜单
 
-   ![image-20241118183700668](/Users/errance/Library/Application Support/typora-user-images/image-20241118183700668.png)
+   ![image-20241118183700668]([/Users/errance/Library/Application Support/typora-user-images/image-20241118183700668.png](https://github.com/WorldLM/worldlm-ecosystem-docs/blob/xy-docs/docs/materials/image-20241118183700668.png))
 
 3. 选择您购买的对应模型，点击“设置API 秘钥”并输入您购买的 API 秘钥
 
-   ![image-20241118183821365](/Users/errance/Library/Application Support/typora-user-images/image-20241118183821365.png)
+   ![image-20241118183821365]([/Users/errance/Library/Application Support/typora-user-images/image-20241118183821365.png](https://github.com/WorldLM/worldlm-ecosystem-docs/blob/xy-docs/docs/materials/image-20241118183821365.png))
 
 4. 提交后，即可正常使用！
 
 5. 您也可以直接将秘钥应用在您自己的代码中
 
-   ![image-20241118184118273](/Users/errance/Library/Application Support/typora-user-images/image-20241118184118273.png)
+   ![image-20241118184118273]([/Users/errance/Library/Application Support/typora-user-images/image-20241118184118273.png](https://github.com/WorldLM/worldlm-ecosystem-docs/blob/xy-docs/docs/materials/image-20241118184118273.png))
 
 
 
-## Gemini（过审）
+## Gemini
 
 ![4](/Users/errance/Downloads/AI 神器/4.png)
 
@@ -76,7 +76,7 @@ Gemini 独享API 前端镜像 可二次开发 Stavern酒馆专用！
 
 
 
-## Claude（未过审已编辑）
+## Claude
 
 ![3](/Users/errance/Downloads/AI 神器/3.png)
 
@@ -128,7 +128,7 @@ Claude 3.5 独享API，全能助手，办公科研双料神器！
 
 
 
-## Llama3（过审）
+## Llama3
 
 ![5](/Users/errance/Downloads/AI 神器/5.png)
 
@@ -188,7 +188,7 @@ Llama3 在线部署，国内直连，极速体验！
 
 
 
-## 论文神器（未过审）
+## 论文神器
 
 ![1](/Users/errance/Downloads/AI 神器/1.png)
 
@@ -230,7 +230,7 @@ Claude3.5 + Gemini 1.5 Pro 带你体验前所未有的内容创作新高度！
 
 
 
-## 代码助手（未过审）
+## 代码助手
 
 ![2](/Users/errance/Downloads/AI 神器/2.png)
 
