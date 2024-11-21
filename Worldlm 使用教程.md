@@ -21,3 +21,22 @@ Worldlm 是一个可国内直连的前端镜像！只需要使用您购买的 AP
 5. 您也可以直接将秘钥应用在您自己的代码中
 
    <img src="https://github.com/WorldLM/worldlm-ecosystem-docs/blob/xy-docs/docs/materials/image-20241118184118273.png" alt="代码示例" width="50%" />
+
+6. 示例代码：
+from openai import OpenAI
+
+client = OpenAI(
+  base_url="https://api.pplm.ai",
+  api_key="sk-xxxxxx", #您购买的API Key
+)
+
+completion = client.chat.completions.create(
+  model="gemini-1-5-pro", #对应的大模型名称
+  messages=[
+    {
+      "role": "user",
+      "content": "What is xxxxx?"
+    }
+  ]
+)
+print(completion.choices[0].message.content)
