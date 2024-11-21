@@ -8,7 +8,7 @@ Worldlm 是一个可国内直连的前端镜像！只需要使用您购买的 AP
 
    <img src="https://github.com/WorldLM/worldlm-ecosystem-docs/blob/xy-docs/docs/materials/image-20241118184901167.png" alt="注册账号" width="30%" />
 
-2. 访问 [chat.worldlm.me]([https://worldlm.me/](https://chat.worldlm.me/)，并登录，在顶部找到模型菜单
+2. 访问 [chat.worldlm.me](https://chat.worldlm.me/)，并登录，在顶部找到模型菜单
 
    <img src="https://github.com/WorldLM/worldlm-ecosystem-docs/blob/xy-docs/docs/materials/image-20241118183700668.png" alt="模型菜单" width="70%" />
 
