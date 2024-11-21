@@ -27,7 +27,7 @@ Worldlm 是一个可国内直连的前端镜像！只需要使用您购买的 AP
 from openai import OpenAI
 
 client = OpenAI(
-    base_url="https://api.pplm.ai",
+    base_url="https://api.pplm.ai", # 我们的 endpoint
         api_key="sk-xxxxxx",  # 您购买的API Key
     )
 
